@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 320px;
+    background-color: #1A1B21;
+    border-radius: .8rem;
+    overflow: hidden;
+}
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main-img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.name {
+    margin-top: 1rem;
+    font-size: 26px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+}
+
+.sub-container {
+    padding: 0 1.5rem;
+}
+
+.role {
+    font-size: 15.7px;
+    color: #F3BF99;
+    margin-top: .3rem;
+    letter-spacing: 2px;
+}
+
+.web {
+    font-size: 11px;
+    margin-top: .1rem;
+}
+
+.connect {
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.email {
+    padding: .4rem 1.75rem;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    border-radius: .35rem;
+}
+
+.whatsapp {
+    border-radius: .35rem;
+    padding: .4rem 1.2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(37, 211, 102);
+    gap: .5rem;
+}
+
+.iconwp {
+    filter: invert(1);
+}
+
+.about, .interest {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.about h3, .interest h3 {
+    margin-bottom: .4rem;
+    letter-spacing: 2px;
+    opacity: 0.7;
+}
+
+.about p {
+    margin-bottom: .4rem;
+}
+
+.interest {
+    margin-bottom: 1rem;
+}
+
+.interest p {
+    margin-bottom: 0.1rem;
+    font-size: 15px;
+    text-align: left;
+}
+
+.heart {
+    color: red;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    background-color: #161619;
+    padding: 1.2rem 0;
+}
+
+.facebookDos, .instagram {
+    filter: invert(1);
+    opacity: 0.5;
+    width: 30px;
+}
+
+.puntos {
+    width: 20px;
+    filter: invert(1);
+}
+
+
+@media only screen and (min-width: 0px) {
+    .main-img {
+        height: 180px;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .main-img {
+        height: 220px;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    .main-img {
+        height: 260px;
+    }
+}
+
+@media only screen and (min-width: 430px) {
+    .main-img {
+        height: 280px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .main-container {
+        width: 85vw;
+        padding: 1.5rem 2rem;
+    }
+    .container {
+        width: 100%;
+    }
+    .name {
+        font-size: 20px;
+    }
+    .role {
+        font-size: 11.5px;
+    }
+    .web {
+        font-size: 10px;
+    }
+    .connect {
+        flex-direction: column;
+    }
+    .about h3, .interest h3 {
+        font-size: 1rem;
+    }
+    .about p, .interest p {
+        font-size: 12px;
+    }
+
+}
