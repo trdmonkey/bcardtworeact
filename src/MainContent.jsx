@@ -22,7 +22,10 @@ export default function MainContent() {
                     <h5 className="web">Universidad del Cauca.</h5>
                     <div className="connect">
                         <a href="mailto:astridhernandez3@gmail.com" className="email" title="Enviar Un correo electronico"><img src={email} alt="mail" /> Email</a>
-                        <a href="https://api.whatsapp.com/send?phone=3195394714&text=Hola%20Lenis%Astrid%2C%20me%20gustaría%20hablar%20contigo%20acerca%20de%20tus%20servicios%20de%20Seguridad%y%salud%en%el%trabajo" className="whatsapp" title="Enviar un msj por Whatsapp"><img src={whatsapp} alt="mail" className="iconwp" /> Whatsapp</a>
+                        <a href={`https://api.whatsapp.com/send?phone=3195394714&text=${encodeURIComponent("Hola Lenis Astrid, me gustaría hablar contigo acerca de tus servicios de Seguridad y salud en el trabajo")}`} className="whatsapp" title="Enviar un mensaje por Whatsapp">
+                            <img src={whatsapp} alt="mail" className="iconwp" /> Whatsapp
+                        </a>
+
                     </div>
                     <div className="about">
                         <h3>Acerca de mi</h3>
