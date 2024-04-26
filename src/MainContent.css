@@ -74,7 +74,15 @@ a {
     align-items: center;
     gap: .5rem;
     border-radius: .35rem;
+    text-decoration: none; /* Para quitar el subrayado predeterminado de los enlaces */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave para el cambio de color */
 }
+
+.email:hover {
+    background-color: #f0f0f0; /* Cambia el color de fondo al pasar el mouse */
+    color: #333; /* Cambia el color del texto al pasar el mouse */
+}
+
 
 .whatsapp {
     border-radius: .35rem;
@@ -83,9 +91,17 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:rgb(37, 211, 102);
+    background-color: rgb(37, 211, 102);
     gap: .5rem;
+    text-decoration: none; /* Para quitar el subrayado predeterminado de los enlaces */
+    transition: background-color 0.3s, color 0.3s; /* Agrega una transición suave para el cambio de color */
 }
+
+.whatsapp:hover {
+    background-color: #2dbd85; /* Cambia el color de fondo al pasar el mouse */
+    color: #fff; /* Cambia el color del texto al pasar el mouse */
+}
+
 
 .iconwp {
     filter: invert(1);
@@ -133,6 +149,13 @@ a {
     filter: invert(1);
     opacity: 0.5;
     width: 30px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Agrega una transición suave para los efectos de transformación y sombra */
+}
+
+.facebookDos:hover, .instagram:hover {
+    transform: scale(1.1); /* Escala la imagen al pasar el mouse */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Agrega una sombra al pasar el mouse */
+    opacity: 1; /* Restaura la opacidad completa al pasar el mouse */
 }
 
 .puntos {
