@@ -1,6 +1,6 @@
 import React from "react";
 import './MainContent.css'
-import astrid from './assets/astrid2.jpg'
+import astrid from './assets/astridDos.jpg'
 import facebook from './assets/facebook.svg'
 import mail from './assets/Mail.svg'
 import whatsapp from './assets/wptres.png'
@@ -18,7 +18,7 @@ export default function MainContent() {
                 </div>
                 <div className="sub-container">
                     <h2 className="name">Astrid Hernandez</h2>
-                    <h4 className="role">Ingeniera Agronoma</h4>
+                    <h4 className="role">Ingeniera Agropecuaria</h4>
                     <h5 className="web">Universidad del Cauca.</h5>
                     <div className="connect">
                         <a href="mailto:astridhernandez3@gmail.com" className="email" title="Enviar Un correo electronico"><img src={email} alt="mail" /> Email</a>
