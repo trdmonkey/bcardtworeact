@@ -1,6 +1,6 @@
 import React from "react";
 import './MainContent.css'
-import astrid from './assets/astridDos.jpg'
+import astrid from './assets/Baby.jpg'
 import facebook from './assets/facebook.svg'
 import mail from './assets/Mail.svg'
 import whatsapp from './assets/wptres.png'
